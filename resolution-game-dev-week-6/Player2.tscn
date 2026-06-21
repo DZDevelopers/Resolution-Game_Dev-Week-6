@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://n1xhldrtl38k"]
+
+[ext_resource type="Texture2D" uid="uid://b7ekrpjync41n" path="res://drive-download-20260618T163937Z-3-001/Boss Phase 2_0.png" id="1_a06vx"]
+[ext_resource type="Script" uid="uid://bfljvpeda8nab" path="res://player_2.gd" id="1_mjxxk"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5pxne"]
+size = Vector2(12, 16)
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=661680937]
+script = ExtResource("1_mjxxk")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=163088175]
+texture = ExtResource("1_a06vx")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=176542350]
+shape = SubResource("RectangleShape2D_5pxne")

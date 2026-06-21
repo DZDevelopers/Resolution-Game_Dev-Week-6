@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://6csb5oqhj6wd"]
+
+[ext_resource type="Script" uid="uid://qcl368qhckhe" path="res://bomb.gd" id="1_1e1di"]
+[ext_resource type="Texture2D" uid="uid://cqr0u6d13d40y" path="res://Bomb & BombExplosion & BombUI_2.png" id="2_a4im0"]
+
+[node name="Node2D" type="Node2D" unique_id=1456410663]
+script = ExtResource("1_1e1di")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=593546321]
+texture = ExtResource("2_a4im0")
+
+[node name="Timer" type="Timer" parent="." unique_id=1591458336]
+
+[node name="Area2D" type="Area2D" parent="." unique_id=1286745196]
